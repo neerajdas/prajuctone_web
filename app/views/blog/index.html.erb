@@ -1,0 +1,10 @@
+<h1>All Articles</h1>
+
+<ul id="blog">
+  <% @blog.each do |blog| %>
+    <li>
+      <%= blog.title %>
+    </li>
+  <% end %>
+</ul>
+

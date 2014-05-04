@@ -1,0 +1,41 @@
+<h3>Enquire for a Product</h3>
+<form role="form">
+<div class="form-group hd">
+<input type="text" class="form-control" placeholder="Write a title for your product">
+</div>
+<div class="form-group hd">
+<textarea class="form-control" placeholder="Write a description about the product you are enquiring" rows="3"></textarea>
+</div>
+<div class="form-group hd">
+<button type="button" class="btn btn-default text-justify" data-toggle="modal" data-target="#enquiry">Submit</button>
+</div>
+</form>
+
+<! -- model start -->
+<div class="modal fade" id="enquiry" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Fill the following requirements..</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group hd">
+        <input type="text" class="form-control" placeholder="Please enter your name">
+        </div>
+        <div class="form-group hd">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Please enter your email-id">
+	</div>
+      </div>
+      <div class="modal-footer">
+      <div class="form-group">
+    <input type="file" id="exampleInputFile" >
+    <p style="color:#fff;" class="help-block text-left">Upload a related file if any.</p>
+</div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn btn-default">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--model end-->

@@ -1,0 +1,21 @@
+<ul class="nav nav-tabs nav-justified hd">
+<li class="active"><a href="#about" data-toggle="tab">About Prajuctone</a></li>
+<li><a href="#mission" data-toggle="tab">Our Mission</a></li>
+<li><a href="#vision" data-toggle="tab">Our Vision</a></li> 
+</ul>
+
+<!-- tab items-->
+<div class="tab-content "style="background-color: rgba(12, 0, 0, 0.2);background: rgba(12, 0, 0, 0.2);">
+<div class="tab-pane active" id="about">
+<h5><u>About Prajuctone</u></h5>
+<p>Lorem ipsum dolor sit amet, id duis incorrupte eam, ullum dolore tamquam at mei, latine admodum eu vim. Quo an dicit blandit principes. Et eum dicta primis aliquam, nobis homero mei no. Omnes tempor mei ex, dolor consul definiebas vel in. Nec noster omnium disputationi at, no per populo recusabo posidonium.</p>
+</div>
+<div class="tab-pane" id="mission">
+<h5><u>Our Mission</u></h5>
+<p>Mutat atqui no eum. Est an tota adipisci, brute dicant te sit. Id mei epicurei tacimates, usu ut natum doming referrentur. Cu vis brute illum. Vel soleat virtute lucilius eu, ut eam quot dicam persecuti, ex possim inimicus nam. Facilis elaboraret voluptatibus ad his, minim vitae dolores ex eum.</p>
+</div>
+<div class="tab-pane" id="vision">
+<h5><u>Our Vision</u></h5>
+<p>Possit malorum scaevola his no, an duo harum copiosae disputationi, vis sanctus lucilius torquatos ne. Sed ad clita ponderum. Iusto ubique pro at, perfecto persecuti accommodare te est. Usu probo congue repudiare ex, vis ea sale mucius. Est meliore facilis cu.</p>
+</div>
+</div>

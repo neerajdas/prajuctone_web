@@ -1,0 +1,5 @@
+<% provide(:title, 'Our products') %>
+<%= render 'pages/product_showcase' %>
+<br>
+<hr>
+<%= render 'pages/future_products' %>

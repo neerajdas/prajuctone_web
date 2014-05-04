@@ -1,0 +1,3 @@
+<% provide(:title, 'Home') %>
+<%= render 'pages/imagescroller' %>
+<%= render 'pages/hoverproduct' %>

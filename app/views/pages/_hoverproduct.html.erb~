@@ -1,0 +1,42 @@
+<div class="">
+<h3>Products| <%= link_to "",    pages_product_path,:class=>"glyphicon glyphicon-link" %></h3>
+<div class="container">
+<div class="view view-tenth">
+                    <%= image_tag("1.jpg")%>
+                    <div class="mask">
+                        <h2>Hover Style #10</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <%= link_to "Read More",  pages_product_path, :class =>"info " %>
+                    </div>
+                </div>
+
+<div class="view view-tenth">
+                    <%= image_tag("2.jpg")%>
+                    <div class="mask">
+                        <h2>Hover Style #10</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                       <%= link_to "Read More",  pages_product_path, :class =>"info " %>
+                    </div>
+                </div>
+<div class="view view-tenth">
+                    <%= image_tag("3.jpg")%>
+                    <div class="mask">
+                        <h2>Hover Style #10</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                       <%= link_to "Read More",  pages_product_path, :class =>"info " %>
+                    </div>
+                </div>
+
+<div class="view view-tenth">
+                    <%= image_tag("4.jpg")%>
+                    <div class="mask">
+                        <h2>Hover Style #10</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                       <%= link_to "Read More",  pages_product_path, :class =>"info " %>
+                    </div>
+                </div>
+
+</div>
+</div>
+
+

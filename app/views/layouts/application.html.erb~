@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prajuctone |  <%= yield(:title) %></title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <%= render 'layouts/shim' %>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+</head>
+<body class="background narrow">
+<div class="container">
+ <%= render 'layouts/header' %>
+<br>
+<%= yield %>
+<%= link_to "(Up)", "#top",:class=>"glyphicon glyphicon-chevron-up btn-lg back-to-top pull-right" %>
+<div class="footr">
+<%= render 'layouts/footer' %>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<% provide(:title, 'About us') %>
+<%= render 'pages/description' %>
+<%= render 'pages/about_prajuctone' %>
+<%= render 'pages/about_members' %>
