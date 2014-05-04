@@ -1,4 +1,7 @@
 Website::Application.routes.draw do
+  devise_for :users
+  resources :posts
+
   resources :blog
   get "pages/home"
   get "pages/about"

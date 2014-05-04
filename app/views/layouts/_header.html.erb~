@@ -1,4 +1,4 @@
-<p id="top" class="small text-right">Happy <%= Time.now.strftime("%A") %> | Blog</p>
+<p id="top" class="small text-right">Happy <%= Time.now.strftime("%A") %> | <%= link_to "Blog",  pages_contact_path %></p>
 <div class="headr">
 <div class="navbar navbar-default"role="navigation">
 <div class="container">
@@ -10,7 +10,7 @@
 <span class="icon-bar"></span>
 </button>
 
-<abbr title="We design dreams!" class="initialism"><%= image_tag("Logo_prajuctone_transparentBG.png",:size => "40x120",:alt => "Prajuctone",:class =>"logo ")%></abbr>
+<abbr title="We design dreams!" class="initialism"><%= image_tag("Logo_prajuctone_transparentBG.png",:size => "40x90",:alt => "Prajuctone",:class =>"logo ")%></abbr>
 <span class="hidden-xs">
 <h4 class="cname">Prajuctone pvt.ltd.</h4>
 </span>

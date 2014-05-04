@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 #ruby-gemset=neeraj_prajuctone_template
 
-gem 'rails', '4.0.4'
+gem 'rails', '4.1.0'
 
 
 
