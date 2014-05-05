@@ -17,9 +17,9 @@
   </div>
   <div class="field">
     <%= f.label :body %><br>
-    <%= f.text_area :body ,:class=>"blacktext" %>
+    <%= f.bootsy_area :body ,:class=>"blacktext " %>
   </div>
-  <div class="actions">
+  <div class="actions blacktext">
     <%= f.submit %>
   </div>
 <% end %>

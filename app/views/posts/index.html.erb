@@ -1,7 +1,7 @@
 <% provide(:title, ' Blog') %>
 
 
-<h3>Our Blogs <sup pull-right class=""><%= Time.zone.now.strftime("%I:%M %p") %></sup></h3>
+<h3>Our Blogs <span class="label label-default"><sup pull-right class=""><%= Time.zone.now.strftime("%I:%M %p") %></sup></span></h3>
 <% @posts.each do|post| %>
 <ul class="cbp_tmtimeline">
     <li>
@@ -11,6 +11,7 @@
             
             <h2><u><%= post.title %></u></h2>
             <p><%= simple_format post.body %></p>
+            
             
         </div>
     </li>

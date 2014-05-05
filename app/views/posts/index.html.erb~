@@ -1,16 +1,17 @@
 <% provide(:title, ' Blog') %>
 
 
-<h3>Our Blogs <sup pull-right class=""><%= Time.zone.now.strftime("%I:%M %p") %></sup></h3>
+<h3>Our Blogs <span class="label label-default"><sup pull-right class=""><%= Time.zone.now.strftime("%I:%M %p") %></sup></span></h3>
 <% @posts.each do|post| %>
 <ul class="cbp_tmtimeline">
     <li>
-        <time class="cbp_tmtime" datetime=""><span><b style="font-size:13px;"><%= post.created_at.strftime("%d.%b. %Y") %></b></span> <span><%= post.created_at.strftime("%I:%M") %></span></time>
+        <u><time class="cbp_tmtime" datetime=""><span><b style="font-size:13px;"><%= post.created_at.strftime("%b. %Y") %></b></span> <span><%= post.created_at.strftime("%d") %></span></time></u>
         <div class="cbp_tmicon glyphicon glyphicon-calendar"></div>
         <div class="cbp_tmlabel">
             
             <h2><u><%= post.title %></u></h2>
             <p><%= simple_format post.body %></p>
+            
             
         </div>
     </li>

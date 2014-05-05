@@ -12,6 +12,7 @@ end
 
 gem 'devise'
 gem 'bcrypt-ruby', '2.1.4'
+gem 'bootsy'
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'

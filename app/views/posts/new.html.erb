@@ -1,18 +1,56 @@
-<h1>New post</h1>
-<% if user_signed_in? %>
+<h3>Admin Panel |
+<span class="label label-default"><sup pull-right><% if user_signed_in? %>
   
-  | <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+   <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
   
 <% else %>
   
-  | <%= link_to('Login', new_user_session_path)  %>  
+   <%= link_to('Login', new_user_session_path)  %>  
   
-<% end %>
-<%= render 'form' %>
+<% end %></sup></span></h3>
+<hr>
+<div class="hd">
+<div class="container">
+<h3>Tasks:</h3><br>
+<h4>1.Write a <span class="label label-default" data-toggle="modal" data-target="#newblog">new</span> Blog !</h4><br>
+  
+<div class="modal fade" id="newblog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Write a new Blog !</h4>
+      </div>
+      <div class="modal-body">
+        <%= render 'form' %>
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
 
-<%= link_to 'Back', posts_path %>
+<h4>2.<span class="label label-default" data-toggle="modal" data-target="#editblog">Edit</span> a Blog !</h4>
 
-<%= render 'admin' %>
+<div class="modal fade" id="editblog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Show / Edit a Blog !</h4>
+      </div>
+      <div class="modal-body">
+        <%= render 'admin' %>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
+</div>
+</div>
 
