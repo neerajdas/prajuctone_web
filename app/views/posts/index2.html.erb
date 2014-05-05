@@ -1,0 +1,13 @@
+<% provide(:title, 'Blog') %>
+<div id="posts"class="hd">
+  <% @posts.each do|post| %>
+  <div id="post">
+    <h3><u><%= post.title %></u></h3>
+    <%= simple_format post.body %>
+  </div>
+  <% end %>
+</div>
+
+
+
+
