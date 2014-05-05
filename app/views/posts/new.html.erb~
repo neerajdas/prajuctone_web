@@ -1,18 +1,18 @@
-<h3>Admin Panel
+<h3>Admin Panel |
 <span class="label label-default"><sup pull-right><% if user_signed_in? %>
   
-  | <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+   <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
   
 <% else %>
   
-  | <%= link_to('Login', new_user_session_path)  %>  
+   <%= link_to('Login', new_user_session_path)  %>  
   
 <% end %></sup></span></h3>
 <hr>
 <div class="hd">
 <div class="container">
 <h3>Tasks:</h3><br>
-<h4>1.Write a <span class="label label-default" data-toggle="modal" data-target="#newblog">new</span> Blog !</h4><br>
+<h4>1.Write a <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newblog">new</button> Blog !</h4><br>
   
 <div class="modal fade" id="newblog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -31,7 +31,7 @@
   </div>
 </div>
 
-<h4>2.<span class="label label-default" data-toggle="modal" data-target="#editblog">Edit</span> a Blog !</h4>
+<h4>2.<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#editblog">Edit</button> a Blog !</h4>
 
 <div class="modal fade" id="editblog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
