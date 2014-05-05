@@ -15,4 +15,5 @@
  *= require header
  *= require narrow
  *= require home
+ *= require post
  */
