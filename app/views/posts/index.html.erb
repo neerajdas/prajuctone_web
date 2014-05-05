@@ -1,7 +1,7 @@
 <% provide(:title, ' Blog') %>
 
 
-<h3>Our Blogs <sup pull-right class=""><%= Time.now.strftime("%I:%M %p") %></sup></h3>
+<h3>Our Blogs <sup pull-right class=""><%= Time.zone.now.strftime("%I:%M %p") %></sup></h3>
 <% @posts.each do|post| %>
 <ul class="cbp_tmtimeline">
     <li>
